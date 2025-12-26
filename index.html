@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Musjid Times</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="aura-container">
+    <div class="splash-grid">
+      <div class="tile time-tile">
+        <div id="time"></div>
+        <div id="date"></div>
+      </div>
+      
+      <div class="tile tall-tile">
+<div class="prayer-countdown-container">
+    <div class="next-prayer-label" id="next-prayer-name">NEXT PRAYER IN</div>
+    
+    <div class="dial-outer">
+        <div class="dial-inner">
+            <div class="icon-top">🤲</div>
+            <div class="countdown-time">--:--:--</div>
+            <div class="countdown-labels">
+                <span>Hours</span><span>Mins</span><span>Sec</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="sun-grid">
+        <div class="sun-item">
+            <div class="sun-label">🌅 Subh Sadiq</div>
+            <div class="sun-pod">04:42 <span>AM</span></div>
+        </div>
+        <div class="sun-item">
+            <div class="sun-label">☀️ Sunrise</div>
+            <div class="sun-pod">06:00 <span>AM</span></div>
+        </div>
+        <div class="sun-item">
+            <div class="sun-label">🕛 Zawaal</div>
+            <div class="sun-pod">12:05 <span>PM</span></div>
+        </div>
+        <div class="sun-item">
+            <div class="sun-label">🌇 Sunset</div>
+            <div class="sun-pod">18:10 <span>PM</span></div>
+        </div>
+    </div>
+
+    <div class="current-prayer-footer">
+        <span id="footer-current-time">Please turn off your mobile phone</span>
+    </div>
+</div>
+      </div>
+
+      <div class="tile main-tile">
+
+                <div class="salah-timetable">
+            <div class="timetable-header">
+            <div class="header-name" id="salah-date"> </div>
+            <div class="header-time">Athan</div>
+            <div class="header-time">Iqaamah</div>
+            </div>
+
+            <div class="prayer-row">
+            <div class="prayer-info"><span class="prayer-icon">🌅</span><span class="prayer-name">Fajr</span></div>
+            <div class="prayer-time">05:42</div>
+            <div class="prayer-time">06:15</div>
+            </div>
+
+            <div class="prayer-row">
+            <div class="prayer-info"><span class="prayer-icon">☀️</span><span class="prayer-name">Zuhr</span></div>
+            <div class="prayer-time">12:10</div>
+            <div class="prayer-time">13:15</div>
+            </div>
+
+            <div class="prayer-row">
+            <div class="prayer-info"><span class="prayer-icon">⛅️</span><span class="prayer-name">Asr</span></div>
+            <div class="prayer-time">14:45</div>
+            <div class="prayer-time">15:15</div>
+            </div>
+
+            <div class="prayer-row">
+            <div class="prayer-info"><span class="prayer-icon">🌇</span><span class="prayer-name">Maghrib</span></div>
+            <div class="prayer-time">16:02</div>
+            <div class="prayer-time">16:10</div>
+            </div>
+
+            <div class="prayer-row">
+            <div class="prayer-info"><span class="prayer-icon">🌙</span><span class="prayer-name">Esha</span></div>
+            <div class="prayer-time">17:35</div>
+            <div class="prayer-time">19:00</div>
+            </div>
+
+            <div class="prayer-row">
+            <div class="prayer-info"><span class="prayer-icon">🕌</span><span class="prayer-name">Jummah</span></div>
+            <div class="prayer-time">12:10</div>
+            <div class="prayer-time">13:15</div>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="tile footer-tile">
+        <div class="tile footer-tile">
+        <div class="headline-container" id="announcement-bar">
+            <div class="headline message-active">Please turn off your mobile phones</div>
+            <div class="headline">Make a donation towards the musjid</div>
+            <div class="headline">Visit our website blantyremusjid.com</div>
+        </div>
+        </div>
+</div>
+    </div>
+  </div>
+
+  <script src="function.js"></script>
+</body>
+</html>
